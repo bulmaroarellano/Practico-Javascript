@@ -1,0 +1,16 @@
+1.- Crear nuevo repositorio en Github. 
+2.- Recomendable evitar la creacion de gitginore, readme, etc. 
+3.- En las opciones de integracion y creación del repositorio, ubicarse en  "... or push an existing reposirory from the command line"
+4.- En el escenario en que ya tengamos creado el pryecto o ya tengamos algun avance en el computador local...
+    
+Copiar/Insetar los comandos que aparecen en e apartado mencionado:
+    git remote add origin git@github.com :usuario/nombre_repositorio
+    git branch -M main
+    git push origin main
+
+Creando el gitginore
+
+Cada linea representa un directorio o archivo a ignorar. 
+
+Recomendable ir a gitginore.io, agregar:
+node, windows, linux, mac
